@@ -1,0 +1,101 @@
+/*
+NAME : ANIK ISLAM
+TEMPLATE NAME : SIMPLE_PORTFOLIO
+VERSION : 1.0.0
+*/
+
+/* CSS ROOT VARIABLE */
+:root{
+    --roboto-fonts: "Roboto", sans-serif;
+    --comfortaa-fonts: "Comfortaa", sans-serif;
+    --nunito-fonts: "Nunito", sans-serif;
+    --playfair_d: "Playfair Display", serif;
+    --menu-color: #25282B;
+    --white-color: #fff;
+    --black-color: #000;
+    --deep-yellow: #FDC435;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+   
+}
+
+
+
+h1{
+    font-size: 64px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    font-size: 24px;
+}
+h5{
+    font-size: 20px;
+}
+h6{
+    font-size: 18p[x];
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+    
+/* HEADER SECTION START */
+.header-seciton{
+    background-color: var(--white-color);
+}
+.logo h4{
+    color: #000;
+}
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 120px 12px 120px;
+    align-items: center;
+}
+ul li{
+    padding: 0;
+    margin: 0;
+}
+.nav-menu ul li {
+    display: inline-block;
+}
+.nav-menu ul li a{
+    color: var(--menu-color);
+    font-size: 18px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+.nav-menu ul li a:hover{
+    color: var(--deep-yellow);
+}
+/* HEADER SECTION END */
